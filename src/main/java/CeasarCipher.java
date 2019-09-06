@@ -1,14 +1,11 @@
 import  java.util.Scanner;
 public class CeasarCipher {
 // Encryption method to encrypt the word oe sentence entered by user
-    public  static String encryption( String plainText,int key){
+   Encrypt ana=new Encrypt();
 
-        if (key>26){
-           key=key%26;
-        }else if (key<0){
-            key=(key%26)+26;
-        }
-        String cipherText="";
+    public static String encryption(String plainText, int key) {
+
+    String cipherText="";
         for (int i=0;i<plainText.toCharArray().length;i++){
             char alph=plainText.charAt(i);
             if (Character.isLetter(alph)){
@@ -60,7 +57,7 @@ public class CeasarCipher {
                 }
                 else if (Character.isUpperCase(alph)){
                     char txt=(char)(alph-key);
-                    if (txt>'A'){
+                    if (txt<'A'){
                         cipherText=cipherText+(char)(alph+(26-key));
                     }else {
                         cipherText=cipherText+txt;
@@ -79,10 +76,11 @@ public static void main(String[] args){
         System.out.println("Enter the message");
         Scanner cipher=new Scanner(System.in);
         String message=cipher.nextLine();
-        String encryptedWord=encryption(message,3);
-        String decryptedWord=decryption(encryptedWord,3);
+        String encryptedWord=encryption(message,-3);
+        String decryptedWord=decryption(encryptedWord,-3);
         System.out.println(encryptedWord);
         System.out.println(decryptedWord);
+
 
 
     }
