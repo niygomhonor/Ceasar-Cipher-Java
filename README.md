@@ -24,23 +24,23 @@ This project will allow users to encrypt and decrypt their messages
 ## Pictures of code
  - [x] CeasarCipher.java
  
- ![  CeasarCipher](https://github.com/niygomhonor/Ceasar-Cipher-java/home/wecode/Pictures/CeasarCipher.png)
-
+ <img src="resources/CeasarCipher.png">
+ 
 - [x] Encrypt.java
 
- ![  EncryptClass ](/home/wecode/Pictures/EncryptClass.png)
+ <img src="resources/EncryptClass.png">
 
 - [x] Decrypt.java
 
- ![ DecryptClass](/home/wecode/Pictures/DecryptClass.png)
+ <img src="resources/DecryptClass.png">
  
 - [x] EncryptTest.java
 
- <img src="resources/CeasarCipher.png">
+ <img src="resources/EncryptTest.png">
  
  - [x] DecryptTest.java
  
-  ![ DecryptTest](/home/wecode/Pictures/DecryptTest.png)
+<img src="resources/DecryptTest.png">
 
 
 ## Contents are the following
