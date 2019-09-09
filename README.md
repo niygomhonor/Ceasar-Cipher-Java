@@ -17,6 +17,10 @@ This project will allow users to encrypt and decrypt their messages
   
 - [x]  After changing entered word into characters `loop` will count by adding characters together to make meaningful word.
 
+## Pictures of code
+  1. CeasarCipher.java
+![alt text](/home/wecode/Pictures/CeasarCipher.png)
+
 ## Contents are the following
   - [x] Application use
   - [x]  Technologies used
