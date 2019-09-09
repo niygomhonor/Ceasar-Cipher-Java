@@ -20,15 +20,23 @@ This project will allow users to encrypt and decrypt their messages
 ## Pictures of code
  - [x] CeasarCipher.java
  
- ![  CeasarCipher.java](/home/wecode/Pictures/CeasarCipher.png)
+ ![  CeasarCipher](/home/wecode/Pictures/CeasarCipher.png)
 
 - [x] Encrypt.java
 
- ![  1. CeasarCipher.java](/home/wecode/Pictures/EncryptClass.png)
+ ![  EncryptClass ](/home/wecode/Pictures/EncryptClass.png)
 
 - [x] Decrypt.java
 
- ![ CeasarCipher.java](/home/wecode/Pictures/DecryptClass.png)
+ ![ DecryptClass](/home/wecode/Pictures/DecryptClass.png)
+ 
+- [x] EncryptTest.java
+
+ ![ EncryptTest](/home/wecode/Pictures/EncryptTest.png)
+ 
+ - [x] DecryptTest.java
+ 
+  ![ DecryptTest](/home/wecode/Pictures/DecryptTest.png)
 
 
 ## Contents are the following
