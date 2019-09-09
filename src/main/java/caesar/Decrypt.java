@@ -3,13 +3,8 @@ package caesar;
 public class Decrypt {
     // Decryption method to decrypt the encrypted word or sentence entered by user.
 
-    public  static String decryption( String plainText,int key){
-// If condition to check the shifts where it is less or greater than 0
-        if (key>26){
-            key=key%26;
-        }else if (key<0){
-            key=(key%26)+26;
-        }
+    public  static String decryption( String plainText, int key){
+
         String cipherText="";
         //
         for (int i=0;i<plainText.toCharArray().length;i++){
