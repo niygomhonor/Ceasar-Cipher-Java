@@ -8,9 +8,9 @@ This project will allow users to encrypt and decrypt their messages
     + _Actually alphabet are 26, shift would be between 1-25 apart from that there is condition to allow user to type 
     any number even greater than 26._
  * `If statement`  
- -[x]  When user enter a number greater than 0, condition will return key or shift considering the `Remainder` after
+ - [x]  When user enter a number greater than 0, condition will return key or shift considering the `Remainder` after
   `divide` that `number` by `26`  
- -[x]  When user enter a number less than 0, condition will return key or shift considering the `Remainder` after 
+ - [x]  When user enter a number less than 0, condition will return key or shift considering the `Remainder` after 
  `divide` that `number` by `26` plus(+) number of alphabet `26` 
     + the use of this is to maintain interval of `1- 25`  shift and let symbols stay in its normal state.
   + `Loop(For)`
@@ -37,14 +37,14 @@ This project will allow users to encrypt and decrypt their messages
   ### CONTACTS
   
   
--[X] For support contact us:
+- [X]  For support contact us:
 
      +  Email:niygomhonor@gmail.com
-     + Instagram:neodohonorine2001
+     +  Instagram:neodohonorine2001
      +  Phone.Nbr:+2507309838
-     + LinkedIn:NIYONKURU Honorine
-     + Facebook:NIYONKURU Neodo Honorine
-     + Slack:NIYONKURU Honorine
+     +  LinkedIn:NIYONKURU Honorine
+     +  Facebook:NIYONKURU Neodo Honorine
+     +  Slack:NIYONKURU Honorine
 ### LISENCE
 -[x] MIT
 
