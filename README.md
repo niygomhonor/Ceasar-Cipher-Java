@@ -1,6 +1,10 @@
 # Ceasar-Cipher-java
 This project will allow users to encrypt and decrypt their messages
 
+## Author 
+
+`NIYONKURU Honorine`
+
 ## Behavior Driven Development
 + **Inputs from user**
   
@@ -22,9 +26,12 @@ This project will allow users to encrypt and decrypt their messages
 
     + Encrypted word
 ## Pictures of code
+
  - [x] CeasarCipher.java
  
  <img src="resources/CeasarCipher.png">
+ 
+
  
 - [x] Encrypt.java
 
