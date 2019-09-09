@@ -15,7 +15,7 @@ This project will allow users to encrypt and decrypt their messages
     + the use of this is to maintain interval of `1- 25`  shift and let symbols stay in its normal state.
   + `Loop(For)`
   
--[x]  After changing entered word into characters `loop` will count by adding characters together to make meaningful word.
+- [x]  After changing entered word into characters `loop` will count by adding characters together to make meaningful word.
 
 ## Contents are the following
   - [x] Application use
@@ -46,6 +46,6 @@ This project will allow users to encrypt and decrypt their messages
      +  Facebook:NIYONKURU Neodo Honorine
      +  Slack:NIYONKURU Honorine
 ### LISENCE
--[x] MIT
+- [x] MIT
 
 Copyright &copy; [2019] NIYONKURU Honorine
