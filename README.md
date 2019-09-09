@@ -20,7 +20,7 @@ This project will allow users to encrypt and decrypt their messages
 ## Pictures of code
  - [x] CeasarCipher.java
  
- ![  CeasarCipher](/home/wecode/Pictures/CeasarCipher.png)
+ ![  CeasarCipher](/niygomhonor/Ceasar-Cipher-java/raw/master/home/wecode/Pictures/CeasarCipher.png)
 
 - [x] Encrypt.java
 
