@@ -2,6 +2,7 @@
 This project will allow users to encrypt and decrypt their messages
 
 ## Behavior Driven Development
++ **Inputs from user**
   
   * User must enter a word with different alphabet not a symbol
   * User must enter a key or shift  as integer number
@@ -17,10 +18,13 @@ This project will allow users to encrypt and decrypt their messages
   
 - [x]  After changing entered word into characters `loop` will count by adding characters together to make meaningful word.
 
++ **Output from application's execution**
+
+    + Encrypted word
 ## Pictures of code
  - [x] CeasarCipher.java
  
- ![  CeasarCipher](/niygomhonor/Ceasar-Cipher-java/raw/master/home/wecode/Pictures/CeasarCipher.png)
+ ![  CeasarCipher](https://github.com/niygomhonor/Ceasar-Cipher-java/home/wecode/Pictures/CeasarCipher.png)
 
 - [x] Encrypt.java
 
@@ -32,7 +36,7 @@ This project will allow users to encrypt and decrypt their messages
  
 - [x] EncryptTest.java
 
- ![ EncryptTest](/home/wecode/Pictures/EncryptTest.png)
+ ![ EncryptTest](src/main/resources/EncryptTest.png)
  
  - [x] DecryptTest.java
  
