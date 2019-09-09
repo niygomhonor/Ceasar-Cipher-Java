@@ -1,0 +1,41 @@
+<!--<%@ page language="java" contentType="text/html; charset=ISO-8859-1"-->
+<!--     pageEncoding="ISO-8859-1"%>-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd" >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Test Summary</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Playball|Ultra&display=swap" rel="stylesheet">
+
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="text-center"> CAESAR CIPHER APP</h1>
+    <div class="jumbotron">
+<fieldset>
+
+    <form action="action_form_process.jsp" method="GET">
+        <label>Enter any message</label> <br>
+        <textarea name="encrypt" class="form" id="txt" rows="5"></textarea> <br>
+        <label for="encryption">Encrypted message</label><br>
+        <textarea name="encrypt" class="form" id="ency" rows="5">
+
+        </textarea> <br>
+        <label for="decryption" >Decrypted message</label><br>
+        <textarea name="encrypt" class="form" id="decry" rows="5"></textarea> <br>
+        <button class="btn btn-success" type="button" onclick="encryption(message,key)">Encrypt</button>
+        <button class="btn btn-secondary" type="button" onclick="decryption(message,key)">Decrypt</button>
+        <input type="number" placeholder="key">
+    </form>
+    <img src="https://media2.giphy.com/media/l3q2FnW3yZRJVZH2g/200.webp?cid=790b7611ffa98978dd63a24693d47b3e7b668a1d50fe71d7&rid=200.webp" alt="thanks" height="200" width="600">
+</fieldset>
+</div>
+</div>
+</body>
+</html>

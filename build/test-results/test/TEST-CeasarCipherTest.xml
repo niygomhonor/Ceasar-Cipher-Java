@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CeasarCipherTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-06T10:36:53" hostname="wecode-HP-280-G2-MT-Non-Legacy" time="0.001">
+  <properties/>
+  <testcase name="shouldNotCipherSymbols" classname="CeasarCipherTest" time="0.001"/>
+  <testcase name="runCeasarCipher_Nothing_to_with_empty_string" classname="CeasarCipherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
