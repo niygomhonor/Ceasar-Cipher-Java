@@ -1,11 +1,17 @@
 package caesar;
-
 public class Encrypt {
     // Encryption method to encrypt the word oe sentence entered by user
 
     public static String encryption(String plainText, int key) {
 
+        if (key>0){
+            key=key%26;
+        }
+        else if (key<0){
+            key=(key%26)+26;
+        }
         String cipherText="";
+
         for (int i=0;i<plainText.toCharArray().length;i++){
             char alph=plainText.charAt(i);
             if (Character.isLetter(alph)){
@@ -32,7 +38,7 @@ public class Encrypt {
         }
         return cipherText;
     }
-
-
-
+    public String decryption(String plainText, int key) {
+        return plainText;
+    }
 }

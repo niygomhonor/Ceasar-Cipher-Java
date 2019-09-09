@@ -1,13 +1,7 @@
 package caesar;
-
 import  java.util.Scanner;
-
 public class CeasarCipher {
-
     public Encrypt caesar;
-//     public Decrypt caesar;
-
-
     public static void main(String[] args) {
         System.out.println("Welcome to this App");
         System.out.println("Enter the message");
@@ -20,7 +14,6 @@ public class CeasarCipher {
         System.out.println(encryptedWord);
         System.out.println(decryptedWord);
     }
-
    }
 
 

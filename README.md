@@ -36,7 +36,7 @@ This project will allow users to encrypt and decrypt their messages
  
 - [x] EncryptTest.java
 
- ![ EncryptTest](src/main/resources/EncryptTest.png)
+ <img src="resources/CeasarCipher.png">
  
  - [x] DecryptTest.java
  

@@ -1,12 +1,17 @@
 package caesar;
 
-public class Decrypt {
+public class Decrypt{
     // Decryption method to decrypt the encrypted word or sentence entered by user.
 
     public  static String decryption( String plainText, int key){
-
+        if (key>0){
+            key=key%26;
+        }
+        else if (key<0){
+            key=(key%26)+26;
+        }
         String cipherText="";
-        //
+
         for (int i=0;i<plainText.toCharArray().length;i++){
             char alph=plainText.charAt(i);
             if (Character.isLetter(alph)){
